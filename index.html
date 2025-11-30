@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie - Delicious food, delivered to you</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">Foodie</div>
+        
+        <nav class="nav">
+            <a href="#categories" class="nav-link">Categories</a>
+            <a href="#restaurants" class="nav-link">Restaurants</a>
+            <a href="#offers" class="nav-link">Offers</a>
+            <a href="#testimonials" class="nav-link">Testimonials</a>
+            <a href="#app" class="nav-link">App</a>
+        </nav>
+
+        <div class="header-buttons">
+            <button class="btn-outline">Login</button>
+            <button class="btn-primary">Sign Up</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Delicious food,<br />delivered to you
+                </h1>
+                <p class="hero-text">
+                    Order from your favorite restaurants and get your meal delivered fast, fresh, and hot. Discover the best food in your city with Foodie!
+                </p>
+                <button class="btn-primary btn-large">Order Now</button>
+            </div>
+            
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1666819691822-29a09f0992e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwZm9vZCUyMGJvd2x8ZW58MXx8fHwxNzY0NDA0NzQzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Delicious food bowls">
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Bar -->
+    <div class="search-section">
+        <div class="search-container">
+            <input type="text" placeholder="Enter your location" class="search-input">
+            
+            <select class="search-select">
+                <option>All Categories</option>
+                <option>Pizza</option>
+                <option>Burgers</option>
+                <option>Sushi</option>
+                <option>Indian</option>
+                <option>Chinese</option>
+                <option>Desserts</option>
+            </select>
+            
+            <button class="btn-primary">Search</button>
+        </div>
+    </div>
+
+    <!-- Browse Categories -->
+    <section id="categories" class="section">
+        <div class="container">
+            <h2 class="section-title">Browse by Category</h2>
+            
+            <div class="categories-grid">
+                <button class="category-card">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1544982503-9f984c14501a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwaXp6YSUyMHNsaWNlfGVufDF8fHx8MTc2NDQyMDQ4MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Pizza">
+                    </div>
+                    <span>Pizza</span>
+                </button>
+                
+                <button class="category-card">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1713330801172-03f8d1c0dde7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXJnZXIlMjBjbG9zZSUyMHVwfGVufDF8fHx8MTc2NDQyMzE5OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Burgers">
+                    </div>
+                    <span>Burgers</span>
+                </button>
+                
+                <button class="category-card">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1582450871972-ab5ca641643d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdXNoaSUyMHJvbGxzfGVufDF8fHx8MTc2NDM4MjcxN3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Sushi">
+                    </div>
+                    <span>Sushi</span>
+                </button>
+                
+                <button class="category-card">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1567337710282-00832b415979?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBjdXJyeSUyMGZvb2R8ZW58MXx8fHwxNzY0NDE5NzE3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Indian">
+                    </div>
+                    <span>Indian</span>
+                </button>
+                
+                <button class="category-card">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGluZXNlJTIwbm9vZGxlc3xlbnwxfHx8fDE3NjQzMDE2MjN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Chinese">
+                    </div>
+                    <span>Chinese</span>
+                </button>
+                
+                <button class="category-card">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1607257882338-70f7dd2ae344?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNzZXJ0JTIwY2FrZXxlbnwxfHx8fDE3NjQzMzA0Njh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Desserts">
+                    </div>
+                    <span>Desserts</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Restaurants -->
+    <section id="restaurants" class="section section-gray">
+        <div class="container">
+            <h2 class="section-title">Featured Restaurants</h2>
+            
+            <div class="restaurants-grid">
+                <div class="restaurant-card">
+                    <div class="restaurant-image">
+                        <img src="https://images.unsplash.com/photo-1761315601031-f31099c14dcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnb3VybWV0JTIwcGFzdGElMjByZXN0YXVyYW50fGVufDF8fHx8MTc2NDQyMjQwNHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Pasta Paradise">
+                    </div>
+                    <div class="restaurant-content">
+                        <h3 class="restaurant-name">Pasta Paradise</h3>
+                        <p class="restaurant-type">Italian</p>
+                        <div class="rating">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="restaurant-card">
+                    <div class="restaurant-image">
+                        <img src="https://images.unsplash.com/photo-1707603571504-86c1ea50903e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0YWNvcyUyMG1leGljYW4lMjBmb29kfGVufDF8fHx8MTc2NDQwMTM2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Taco Fiesta">
+                    </div>
+                    <div class="restaurant-content">
+                        <h3 class="restaurant-name">Taco Fiesta</h3>
+                        <p class="restaurant-type">Mexican</p>
+                        <div class="rating">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="restaurant-card">
+                    <div class="restaurant-image">
+                        <img src="https://images.unsplash.com/photo-1653697469316-955d5ebe5994?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyYW1lbiUyMG5vb2RsZXMlMjBib3dsfGVufDF8fHx8MTc2NDQyMjQwNHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Ramen House">
+                    </div>
+                    <div class="restaurant-content">
+                        <h3 class="restaurant-name">Ramen House</h3>
+                        <p class="restaurant-type">Japanese</p>
+                        <div class="rating">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="restaurant-card">
+                    <div class="restaurant-image">
+                        <img src="https://images.unsplash.com/photo-1574068929060-711c189954dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZWRpdGVycmFuZWFuJTIwc2FsYWR8ZW58MXx8fHwxNzY0NDIyNDA1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Green Garden">
+                    </div>
+                    <div class="restaurant-content">
+                        <h3 class="restaurant-name">Green Garden</h3>
+                        <p class="restaurant-type">Healthy</p>
+                        <div class="rating">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Offers -->
+    <section id="offers" class="section">
+        <div class="container">
+            <h2 class="section-title">Promo Offers</h2>
+            
+            <div class="offers-grid">
+                <div class="offer-card offer-blue">
+                    <div class="offer-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="19" y1="5" x2="5" y2="19"/>
+                            <circle cx="6.5" cy="6.5" r="2.5"/>
+                            <circle cx="17.5" cy="17.5" r="2.5"/>
+                        </svg>
+                    </div>
+                    <p>Get 30% OFF on your first order!</p>
+                </div>
+
+                <div class="offer-card offer-orange">
+                    <div class="offer-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="1" y="3" width="15" height="13"/>
+                            <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+                            <circle cx="5.5" cy="18.5" r="2.5"/>
+                            <circle cx="18.5" cy="18.5" r="2.5"/>
+                        </svg>
+                    </div>
+                    <p>Free delivery on orders above $20</p>
+                </div>
+
+                <div class="offer-card offer-pink">
+                    <div class="offer-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/>
+                            <line x1="7" y1="7" x2="7.01" y2="7"/>
+                        </svg>
+                    </div>
+                    <p>Buy 1 Get 1 Free on Burgers every Friday</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section section-pink">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="Sarah M." class="testimonial-avatar">
+                        <div class="rating">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">Foodie makes ordering food so easy and quick! The delivery is always on time and the food is amazing.</p>
+                    <p class="testimonial-name">Sarah M.</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" alt="James L." class="testimonial-avatar">
+                        <div class="rating">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">Great selection of restaurants and amazing offers - highly recommend! My entire family loves it.</p>
+                    <p class="testimonial-name">James L.</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop" alt="Maya R." class="testimonial-avatar">
+                        <div class="rating">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">The app is super user friendly and the customer support is fantastic. Love Foodie!</p>
+                    <p class="testimonial-name">Maya R.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Download -->
+    <section id="app" class="section">
+        <div class="container">
+            <h2 class="section-title">Get the Foodie App</h2>
+            <p class="app-description">
+                Order food on the go! Download the app for the best experience and exclusive app-only deals.
+            </p>
+            
+            <div class="app-buttons">
+                <button class="app-store-btn">
+                    <svg class="app-store-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+                    </svg>
+                    <div class="app-store-text">
+                        <div class="app-store-label">Download on the</div>
+                        <div class="app-store-name">App Store</div>
+                    </div>
+                </button>
+                
+                <button class="app-store-btn">
+                    <svg class="app-store-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.5,12.92 20.16,13.19L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+                    </svg>
+                    <div class="app-store-text">
+                        <div class="app-store-label">GET IT ON</div>
+                        <div class="app-store-name">Google Play</div>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3 class="footer-title">Cities Served</h3>
+                    <ul class="footer-list">
+                        <li>New York</li>
+                        <li>Los Angeles</li>
+                        <li>Chicago</li>
+                        <li>Houston</li>
+                        <li>Miami</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-title">Contact</h3>
+                    <ul class="footer-list">
+                        <li>Email: support@foodie.com</li>
+                        <li>Phone: 1-800-467-3663</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-title">Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 
