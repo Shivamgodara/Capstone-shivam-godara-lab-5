@@ -1,0 +1,6 @@
+This Assignment is made by shivam godara 2501010154.
+Brief Explanation of this project:
+This is the capstone project of web dev 1 in which my theme is online food ordering website -foodie. 
+In this I have used HTML with External CSS 
+
+Thank You
